@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background: rgb(2,0,36);
+ background:
+ linear-gradient(90deg, rgb(70, 67, 126) 0%, rgb(135, 168, 119) 7%, rgba(0,212,255,1) 100%); 
+    font-size: 20px;
+    font-family: monospace;
+}
+.show-modal{
+    padding: 0.5rem;
+    position: relative;
+    left: 32%;
+    margin: 0.5rem;
+    border-radius: 20rem;
+
+}
+.show-modal:hover{
+    background-color: yellowgreen;
+    transition: all linear 0.5s;
+}
+.modal{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(235, 231, 231);
+    position: absolute;
+    left: 29%;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    
+}
+.overlay{
+    position: absolute;
+    margin-top: -51px;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-color: rgb(0,0,0,0.6);
+}
+.hidden{
+    display: none;
+}
+.close-modal{
+    float: right;
+    border: none;
+}
