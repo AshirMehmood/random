@@ -1,23 +1,7 @@
 /* hover effect footer icons */
-#fb img:hover {
+:where(fb,ig,tw) img:hover {
     border-radius: 20px;
     box-shadow: 5px 0 1px 2px #7e7fd4;
-    transition: 0.2s ease-in;
-    height: 42px;
-
-}
-
-#ig img:hover {
-    border-radius: 10px;
-    box-shadow: 5px 0 1px 2px #953670;
-    transition: 0.2s ease-in;
-    height: 42px;
-
-}
-
-#tw :hover {
-    border-radius: 10px;
-    box-shadow: 5px 0 1px 2px #c2e8ff;
     transition: 0.2s ease-in;
     height: 42px;
 
